@@ -9,7 +9,7 @@ public class PostmanEchoTest {
 // Given - When - Then
 // Предусловия
         given()
-                .baseUri("https://postman-echo.com")
+                .baseUri("https://postmanecho.com")
                 .body("name") // отправляемые данные (заголовки и query можно выставлять аналогично)
 // Выполняемые действия
                 .when()
